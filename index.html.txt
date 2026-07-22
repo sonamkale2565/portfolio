@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sonam Kale | Portfolio</title>
+
+
+<style>
+
+/* ===== RESET ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',Arial,sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+    background:#f8fafc;
+    color:#222;
+}
+
+
+/* ===== NAVBAR ===== */
+
+
+nav{
+
+    background:#2563eb;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    z-index:100;
+
+}
+
+
+.logo{
+
+    font-size:25px;
+    font-weight:bold;
+
+}
+
+
+nav ul{
+
+    display:flex;
+    list-style:none;
+
+}
+
+
+nav ul li{
+
+    margin-left:25px;
+
+}
+
+
+nav ul li a{
+
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+
+
+/* ===== HERO ===== */
+
+
+.hero{
+
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+
+}
+
+
+.hero h1{
+
+    font-size:45px;
+    color:#2563eb;
+
+}
+
+
+.hero h2{
+
+    margin:15px 0;
+
+}
+
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+
+.btn{
+
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+
+}
+
+
+.btn:hover{
+
+    background:#111;
+
+}
+
+
+
+
+/* ===== COMMON ===== */
+
+
+section{
+
+    padding:70px 8%;
+
+}
+
+
+.title{
+
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:40px;
+
+}
+
+
+
+
+
+/* ===== ABOUT ===== */
+
+
+.about{
+
+    text-align:center;
+    font-size:18px;
+    line-height:1.7;
+
+}
+
+
+
+
+/* ===== SKILLS ===== */
+
+
+.container{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+
+}
+
+
+
+.card{
+
+    background:white;
+    width:230px;
+    padding:30px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 20px #ddd;
+    transition:.3s;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+.card h3{
+
+    color:#2563eb;
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+/* ===== PROJECT ===== */
+
+
+.project button{
+
+    margin-top:15px;
+    padding:8px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+
+}
+
+
+
+
+/* ===== CONTACT ===== */
+
+
+.contact{
+
+    text-align:center;
+    font-size:18px;
+
+}
+
+
+
+.contact p{
+
+    margin:10px;
+
+}
+
+
+
+
+/* ===== FOOTER ===== */
+
+
+footer{
+
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+
+
+
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+
+nav{
+
+    display:block;
+    text-align:center;
+
+}
+
+
+nav ul{
+
+    justify-content:center;
+    margin-top:15px;
+
+}
+
+
+.hero h1{
+
+    font-size:32px;
+
+}
+
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+Sonam Portfolio
+</div>
+
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero">
+
+
+<div>
+
+
+<h1>
+Hi, I'm Sonam Kale
+</h1>
+
+
+<h2>
+<span id="typing"></span>
+</h2>
+
+
+<p>
+B.Tech AI & Data Science Student
+<br>
+Frontend Developer
+</p>
+
+
+
+<a class="btn" href="#contact">
+Hire Me
+</a>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- ABOUT -->
+
+
+<section id="about">
+
+
+<h2 class="title">
+About Me
+</h2>
+
+
+<div class="about">
+
+
+<p>
+
+I am a passionate fresher Web Developer.
+I create responsive and user-friendly websites
+using HTML, CSS and JavaScript.
+
+I love learning new technologies and building
+real-world projects.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- SKILLS -->
+
+
+<section id="skills">
+
+
+<h2 class="title">
+My Skills
+</h2>
+
+
+<div class="container">
+
+
+<div class="card">
+
+<h3>HTML</h3>
+
+<p>Web Structure</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>CSS</h3>
+
+<p>Responsive Design</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>JavaScript</h3>
+
+<p>Dynamic Website</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Git & GitHub</h3>
+
+<p>Version Control</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>React</h3>
+
+<p>Learning</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- PROJECTS -->
+
+
+<section id="projects">
+
+
+<h2 class="title">
+My Projects
+</h2>
+
+
+
+<div class="container">
+
+
+<div class="card project">
+
+<h3>
+Portfolio Website
+</h3>
+
+<p>
+Personal developer portfolio
+</p>
+
+
+<button>
+View
+</button>
+
+
+</div>
+
+
+
+
+<div class="card project">
+
+
+<h3>
+To Do App
+</h3>
+
+
+<p>
+JavaScript task manager
+</p>
+
+
+<button>
+View
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="card project">
+
+
+<h3>
+Weather App
+</h3>
+
+
+<p>
+Weather API project
+</p>
+
+
+<button>
+View
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section id="contact">
+
+
+<h2 class="title">
+Contact Me
+</h2>
+
+
+<div class="contact">
+
+
+<p>
+📧 sonamkale2565@gmail.com
+</p>
+
+
+<p>
+📱 7987560420
+</p>
+
+
+<p>
+🔗 LinkedIn:
+linkedin.com/in/sonam-kale-456550389
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+
+© <span id="year"></span> Sonam Kale
+
+
+</footer>
+
+
+
+
+
+
+
+<script>
+
+
+// Typing Effect
+
+
+let text="Frontend Developer";
+
+let index=0;
+
+
+function typing(){
+
+if(index < text.length){
+
+document.getElementById("typing").innerHTML += text.charAt(index);
+
+index++;
+
+setTimeout(typing,120);
+
+}
+
+}
+
+
+typing();
+
+
+
+// Current Year
+
+document.getElementById("year").innerHTML =
+new Date().getFullYear();
+
+
+
+</script>
+
+
+
+</body>
+</html>
